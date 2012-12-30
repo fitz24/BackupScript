@@ -4,7 +4,7 @@ BackupScript
 Backup script and learning tool for Github.
 
 Disclaimer:
-  No warantee expressed or implied.  Patches welcome.
+  No warranty expressed or implied.  Patches welcome.
 
 Purpose:
   To backup home directory to a truecrypt volume.
