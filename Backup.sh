@@ -13,10 +13,10 @@
 #				-v verbose
 #				-i interactive 
 
-# Set the source directory to the home drive. 
+# Set the source directory to the home drive. Replace "~/" with "/home/homedrivename/*"
 Source="~/*"
 
-# Set the destination directory to the truecrypt directory which always mounts to "/media/truecrypt1"
+# Set the destination directory to the truecrypt directory "/media/truecrypt1" which is its default mount point
 Dest="/media/truecrypt1"
 
 # Inform of what we are doing
@@ -28,7 +28,7 @@ echo "This may take a very long time"
 # Set the start time of the backup
 echo "Started backup: $(date)" >> Backup.log
 
-# Loop the files in the source directory
+# Loop the directories and files in the source directory
 for myFile in $Source
 
 	do
