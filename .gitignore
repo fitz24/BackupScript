@@ -16,5 +16,5 @@
 *.out
 *.app
 
-#Log files
+#Log files added by fitz24.  Everything above is default by github.
 *.log
